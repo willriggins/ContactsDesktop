@@ -12,6 +12,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
+
     @FXML
     TextField name;
 
@@ -50,5 +51,4 @@ public class Controller implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         list.setItems(contacts);
     }
-
 }
