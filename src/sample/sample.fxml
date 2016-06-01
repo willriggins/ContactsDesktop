@@ -8,15 +8,15 @@
 
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="0.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+      <HBox prefHeight="0.0" prefWidth="600.0">
          <children>
-            <TextField fx:id="name" promptText="Name" />
-            <TextField fx:id="phone" promptText="Phone" />
-            <TextField fx:id="email" promptText="Email" />
-            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onAdd" text="Add" HBox.hgrow="ALWAYS" />
-            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onRemove" text="Remove" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="name" promptText="Name" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="phone" promptText="Phone" HBox.hgrow="ALWAYS" />
+            <TextField fx:id="email" promptText="Email" HBox.hgrow="ALWAYS" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onAdd" text="Add" />
+            <Button minWidth="-Infinity" mnemonicParsing="false" onAction="#onRemove" text="Remove" />
          </children>
       </HBox>
-      <ListView fx:id="list" prefHeight="466.0" prefWidth="600.0" VBox.vgrow="ALWAYS" />
+      <ListView fx:id="list" prefHeight="489.0" prefWidth="600.0" VBox.vgrow="ALWAYS" />
    </children>
 </VBox>
